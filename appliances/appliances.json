@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "name": "TV 1",
+        "type": "tv",
+        "status": "1",
+        "channel": "1",
+        "volume": "10"
+    },
+    {
+        "id": 2,
+        "name": "Motor Test 1",
+        "type": "lock",
+        "status": "1",
+        "channel": "",
+        "volume": ""
+    },
+    {
+        "id": 3,
+        "name": "Bedroom Light",
+        "type": "light",
+        "status": "1",
+        "channel": "",
+        "volume": ""
+    },
+    {
+        "id": 4,
+        "name": "TV 2",
+        "type": "tv",
+        "status": "0",
+        "channel": "46",
+        "volume": "50"
+    },
+    {
+        "id": 5,
+        "name": "Front Lock",
+        "type": "lock",
+        "status": "1",
+        "channel": "",
+        "volume": ""
+    }
+
+]
