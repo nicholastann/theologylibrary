@@ -1,67 +1,33 @@
+# Zoomable Sunburst
 
-# react-zoomable-sunburst-d3-v4
+https://observablehq.com/@d3/zoomable-sunburst@357
 
+View this notebook in your browser by running a web server in this folder. For
+example:
 
-Sunburst component built with React. It is build upon D3 V4 and CRA
+~~~sh
+npx http-server
+~~~
 
-### Installation
+Or, use the [Observable Runtime](https://github.com/observablehq/runtime) to
+import this module directly into your application. To npm install:
 
-```bash
-npm i react-sunburst-d3-v4
-```
-### Demo
-[![Watch the video](https://drive.google.com/file/d/0B8u1TA7r4bhEVGlCTTEzVHFheEU/view)](https://drive.google.com/file/d/0B8u1TA7r4bhEVGlCTTEzVHFheEU/view)
+~~~sh
+npm install @observablehq/runtime@4
+npm install https://api.observablehq.com/@d3/zoomable-sunburst@357.tgz?v=3
+~~~
 
-### Example
+Then, import your notebook and the runtime as:
 
-```js
-import Sunburst from 'react-sunburst-d3-v4';
+~~~js
+import {Runtime, Inspector} from "@observablehq/runtime";
+import define from "@d3/zoomable-sunburst";
+~~~
 
-class App extends Component {
-  onSelect(event){
-    console.log(event);
-  }
-  render() {
-    return (
-      <div className="App">
-        <Sunburst
-          data={data}
-          onSelect={this.onSelect}
-          scale="linear"
-          tooltipContent={ <div class="sunburstTooltip" style="position:absolute; color:'black'; z-index:10; background: #e2e2e2; padding: 5px; text-align: center;" /> }
-          tooltip
-          tooltipPosition="right"
-          keyId="anagraph"
-          width="480"
-          height="400"
-        />
-      </div>
-    );
-  }
-}
-```
+To log the value of the cell named “foo”:
 
-|    Property    | Type  |          Description          | Working |
-| -------------  | ----  |          -----------          | ------- |
-| data           | Array | Typically same for every Sunburst Chart | Yes |
-| scale          | String |Options: linear / exponential - Linear renders each arc with same radii, Exponential reduces gradually by SquareRoot | Yes |
-| tooltip | bool | Display Tooltip or not | Yes |
-| tooltipContent | HTMLNode | Customized Node for Tooltip rendering | Yes |
-| keyId | string | Unique Id for Chart SVG | Yes |
-| width | Integer | Width of the Chart Container | Yes |
-| height | Integer | Height of the Chart Container | Yes |
-
-### Methods
-* `onSelect()`   - Function - Called on Arc Click for re-rendering the chart and passing back to User as props
-
-###
-TODO:
-1. Add Label Content & Customized Label Content
-2. UI UX improvements
-3. Add Color and Label options from user input props
-4. Smooth animation on Click
-5. D3 Bar Charts Addition
-6. Bar charte line chart, pie chart, multiple line graphs
-
-###
-Check out the Example folder for Customized Usage
+~~~js
+const runtime = new Runtime();
+const main = runtime.module(define);
+main.value("foo").then(value => console.log(value));
+~~~
