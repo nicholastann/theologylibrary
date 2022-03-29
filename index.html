@@ -1,16 +1,16 @@
-<h1 style="color:white; text-align:center;">Placeholder Text</h1>
-<body style="background-color:#101020;">
+<link rel="stylesheet" href="style.css">
 
+<body>
+    <h1>Theology Library</h1>
+    
     </div><div id="observablehq-chart-44d22b90"></div>
 
     <script type="module">
         import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
         import define from "https://api.observablehq.com/@nicholastann/zoomable-sunburst.js?v=3";
+
         new Runtime().module(define, name => {
             if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-44d22b90"));
         });
     </script>
 </body>
-
-
-<link rel="stylesheet" href="style.css">
