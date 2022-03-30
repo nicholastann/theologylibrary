@@ -1,31 +1,149 @@
 {
-    "name": "theology",
+    "name": "Theology",
     "children": [
         {
-            "name": "Apologetic (defending faith)",
+            "name": "Apologetic (rational defense)",
             "value": 1
         },
         {
             "name": "Bibliology",
-            "value": 1
+            "children": [
+                {
+                    "name": "Commentaries",
+                    "children": [
+                        {
+                            "name": "SonicLight",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
         },
         {
             "name": "Christology",
             "value": 1
         },
         {
-            "name": "Denominational",
-            "value": 1
-        },
-        {
             "name": "Doctrinal",
-            "value": 1
-        },
-        {
-            "name": "Ecclesiology (church)",
             "children": [
                 {
-                    "name": "Patrology (early church fathers)",
+                    "name": "Denominations",
+                    "children": [
+                        {
+                            "name": "List",
+                            "children": [
+                                {
+                                    "name": "Assembly of God",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "Baptist",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "Catholic",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "Pentecostal",
+                                    "value": 1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Comparison",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Meta",
+                    "children": [
+                        {
+                            "name": "Minimalism",
+                            "value": 1
+                        },
+                        {
+                            "name": "Sectarianism",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Sola Scriptura",
+                    "value": 1
+                },
+                {
+                    "name": "Soli Deo gloria",
+                    "value": 1
+                },
+                {
+                    "name": "Sola gratia",
+                    "value": 1
+                },
+                {
+                    "name": "Sola fide",
+                    "value": 1
+                },
+                {
+                    "name": "Solus Christus",
+                    "value": 1
+                },
+                {
+                    "name": "Creeds",
+                    "value": 1
+                },
+                {
+                    "name": "Inerrancy",
+                    "value": 1
+                },
+                {
+                    "name": "Trinity",
+                    "value": 1
+                },
+                {
+                    "name": "Christ's nature",
+                    "value": 1
+                },
+                {
+                    "name": "Resurrection",
+                    "value": 1
+                },
+                {
+                    "name": "Original sin",
+                    "value": 1
+                },
+                {
+                    "name": "Atonement",
+                    "value": 1
+                },
+                {
+                    "name": "Mary",
+                    "value": 1
+                },
+                {
+                    "name": "Angels",
+                    "value": 1
+                },
+                {
+                    "name": "Satan & Demons",
+                    "value": 1
+                },
+                {
+                    "name": "Predestination",
+                    "value": 1
+                },
+                {
+                    "name": "Eternal security",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "name": "Ecclesiology (Church)",
+            "children": [
+                {
+                    "name": "Patrology (Early fathers)",
                     "value": 1
                 }
             ]
@@ -35,11 +153,11 @@
             "value": 1
         },
         {
-            "name": "Eschatology (end times)",
+            "name": "Eschatology (End times)",
             "value": 1
         },
         {
-            "name": "Exegetical (on interpretation)",
+            "name": "Exegetical (Interpretation)",
             "value": 1
         },
         {
@@ -47,7 +165,7 @@
             "value": 1
         },
         {
-            "name": "Missiology (church mission)",
+            "name": "Missiology (Church mission)",
             "value": 1
         },
         {
@@ -87,8 +205,25 @@
             "name": "All Resources",
             "children": [
                 {
-                    "name": "books",
-                    "value": 1
+                    "name": "Books",
+                    "children": [
+                        {
+                            "name": "Bible",
+                            "value": 1
+                        },
+                        {
+                            "name": "Christianity On Trial",
+                            "value": 1
+                        },
+                        {
+                            "name": "Screw Tape Letters",
+                            "value": 1
+                        },
+                        {
+                            "name": "Single Dating Engaged Married",
+                            "value": 1
+                        }
+                    ]
                 },
                 {
                     "name": "Blogs",
@@ -125,7 +260,7 @@
             ]
         },
         {
-            "name": "Soteriology (salvation)",
+            "name": "Soteriology (Salvation)",
             "value": 1
         }
     ]
