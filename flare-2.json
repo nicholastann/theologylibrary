@@ -1,0 +1,132 @@
+{
+    "name": "theology",
+    "children": [
+        {
+            "name": "Apologetic (defending faith)",
+            "value": 1
+        },
+        {
+            "name": "Bibliology",
+            "value": 1
+        },
+        {
+            "name": "Christology",
+            "value": 1
+        },
+        {
+            "name": "Denominational",
+            "value": 1
+        },
+        {
+            "name": "Doctrinal",
+            "value": 1
+        },
+        {
+            "name": "Ecclesiology (church)",
+            "children": [
+                {
+                    "name": "Patrology (early church fathers)",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "name": "Ethical",
+            "value": 1
+        },
+        {
+            "name": "Eschatology (end times)",
+            "value": 1
+        },
+        {
+            "name": "Exegetical (on interpretation)",
+            "value": 1
+        },
+        {
+            "name": "Historical",
+            "value": 1
+        },
+        {
+            "name": "Missiology (church mission)",
+            "value": 1
+        },
+        {
+            "name": "Pnuematology (Holy Spirit)",
+            "value": 1
+        },
+        {
+            "name": "Philosophy",
+            "children": [
+                {
+                    "name": "Deontology",
+                    "value": 1
+                },
+                {
+                    "name": "Epistemology",
+                    "value": 1
+                },
+                {
+                    "name": "Ontology",
+                    "value": 1
+                },
+                {
+                    "name": "Tautology",
+                    "value": 1
+                },
+                {
+                    "name": "Teleology",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "name": "Practical",
+            "value": 1
+        },
+        {
+            "name": "All Resources",
+            "children": [
+                {
+                    "name": "books",
+                    "value": 1
+                },
+                {
+                    "name": "Blogs",
+                    "value": 1
+                },
+                {
+                    "name": "By me",
+                    "value": 1
+                },
+                {
+                    "name": "Music",
+                    "value": 1
+                },
+                {
+                    "name": "Notable thinkers",
+                    "value": 1
+                },
+                {
+                    "name": "Papers",
+                    "value": 1
+                },
+                {
+                    "name": "Podcasts",
+                    "value": 1
+                },
+                {
+                    "name": "Youtube",
+                    "value": 1
+                },
+                {
+                    "name": "Websites",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "name": "Soteriology (salvation)",
+            "value": 1
+        }
+    ]
+}
